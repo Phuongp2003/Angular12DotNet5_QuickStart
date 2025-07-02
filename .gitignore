@@ -1,0 +1,81 @@
+# === Common ===
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.log
+
+# === Node.js / Angular ===
+/node_modules
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/coverage
+/libpeerconnection.log
+npm-debug.log*
+yarn-error.log*
+testem.log
+.typings
+.sass-cache
+/connect.lock
+
+# === VSCode ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# === JetBrains Rider / IntelliJ ===
+.idea/
+*.sublime-workspace
+
+# === Eclipse ===
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# === ASP.NET Core (.NET 5) ===
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Optional: Ignore EF Core migrations if not versioning them
+#migrations/
+
+# Entity Framework & local DB
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Secret config files 
+appsettings.Development.json
+secrets.json
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+# Chrome profiler
+chrome-profiler-events*.json
